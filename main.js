@@ -27,11 +27,11 @@ faqs.forEach(faq => {
 
 const menu = document.querySelector(".nav__menu");
 const menuBtn = document.querySelector("#open-menu-btn");
-const closeBtn = menu document.querySelector(".close-menu-btn");
+const closeBtn = document.querySelector("#close-menu-btn");
 
 menuBtn.addEventListener('click', () => {
     menu.style.display = "flex";
-    close.style.display = "inline-block";
+    closeBtn.style.display = "inline-block";
     menuBtn.style.display = "none";
 })
 
@@ -42,7 +42,5 @@ const closeNav = () => {
     menuBtn.style.display = "inline-block";
 }
 
-closeBtn.addEventLitener ('click', () => {
-
-})
+closeBtn.addEventLitener ('click', closeNav)
 
