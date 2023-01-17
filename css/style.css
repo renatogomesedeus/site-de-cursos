@@ -507,17 +507,67 @@ div.footer__copyright {
         color: var(--color-white);
     }
 
+    /* Inicio da header responsivo */
+
+    header {
+        height: 52vh;
+        margin-bottom: 4rem;
+    }
+
+    .header__container {
+        gap: 0;
+        padding-bottom: 3rem;
+    }
+
+     /* Fim da header responsivo */
+
+     /* categorias inicio responsivo  */
+     .categories {
+        height: auto;
+     }
+
+     .categories__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+     }
+
+     .categories__left {
+        margin-right: 0;
+     }
+     /* categorias fim responsivo  */
+
+     /* cursos populares inicio responsivo */
+     .courses {
+        margin-top: 0;
+     }
+
+     .courses__container {
+        grid-template-columns: 1fr 1fr;
+                
+     }
+    /* cursos populares fim responsivo */
+
+    /* Duvidas frentes responsivo inicio  */
+    .faqs__container {
+        grid-template-columns: 1fr;
+    }
+
+    .faq {
+        padding: 1.5rem;
+    }
+    /* Duvidas frentes responsivo fim  */
+
+    /* footer inicio responsivo  */
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* footer fim responsivo  */
+
 }
 
 /*Fim midia query (tablets) */
 
-
-
-
-
-
-
-
+/* Navbar inicio */
 
 nav {
     display: flex;
@@ -618,7 +668,6 @@ nav .nav-list .nav-link {
     
 }
 
-
 @media (max-width: 675px) {
 
     nav .nav-list {
@@ -702,3 +751,6 @@ input:checked~nav .navbar-toggler .bar:nth-child(3) {
     margin-top: 24%;
 
 }
+
+/* Navbar fim */
+
