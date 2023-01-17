@@ -581,6 +581,11 @@ nav .nav-list .nav-link {
         margin-left: 8.5%; 
                
     }
+
+    ul li a {
+        margin-left: 0        
+    }   
+    
 }
 
 @media (max-width: 935px) {
@@ -606,7 +611,13 @@ nav .nav-list .nav-link {
         margin-left: 0;        
     }
 
+    ul li a {
+        margin-left: 3; 
+               
+    } 
+    
 }
+
 
 @media (max-width: 675px) {
 
@@ -640,11 +651,7 @@ nav .nav-list .nav-link {
     .alinhamento-h4 {        
         margin-left: -1000px;
         
-    }
-    
-    
-
-    
+    } 
     
 }
 
